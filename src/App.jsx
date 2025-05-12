@@ -77,7 +77,7 @@ const App = () => {
   };
 
   useEffect(() => {
-  fetchEvents;
+  fetchEvents();
   }, []);
 
   // if (loading) {
